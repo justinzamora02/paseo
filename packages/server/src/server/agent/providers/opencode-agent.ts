@@ -1379,6 +1379,7 @@ export class OpenCodeAgentClient implements AgentClient {
   readonly capabilities = OPENCODE_CAPABILITIES;
   readonly resolveCreateConfig = resolveOpenCodeCreateConfig;
   readonly isCreateConfigUnattended = isOpenCodeCreateConfigUnattended;
+  readonly ownsDefaultModelSelection = true;
 
   private readonly serverManager: OpenCodeServerManagerLike;
   private readonly createOpenCodeClient: OpenCodeClientFactory;

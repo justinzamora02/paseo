@@ -4726,7 +4726,10 @@ export class AgentManager {
     }
 
     const shouldResolveDefaultModel = options.resolveDefaultModel ?? true;
-    if (shouldResolveDefaultModel && !normalized.model) {
+    const clientOwnsDefaultModelSelection = this.clients.get(
+      normalized.provider,
+    )?.ownsDefaultModelSelection;
+    if (shouldResolveDefaultModel && !normalized.model && !clientOwnsDefaultModelSelection) {
       const defaultModelId = await this.resolveDefaultModelId(normalized);
       if (defaultModelId) {
         normalized.model = defaultModelId;
