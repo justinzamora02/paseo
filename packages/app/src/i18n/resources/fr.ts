@@ -1585,6 +1585,7 @@ export const fr: TranslationResources = {
   },
   providerSelection: {
     defaultModel: "Défaut",
+    providerDefaultModel: "Valeur par défaut du fournisseur",
     selectModel: "Sélectionnez le modèle",
     loading: "Chargement...",
     error: "Erreur",
