@@ -1552,7 +1552,6 @@ export const ja: TranslationResources = {
   },
   providerSelection: {
     defaultModel: "デフォルト",
-    providerDefaultModel: "プロバイダーのデフォルト",
     selectModel: "モデルを選択",
     loading: "読み込み中...",
     error: "エラー",

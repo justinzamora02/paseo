@@ -1567,7 +1567,6 @@ export const ptBR: TranslationResources = {
   },
   providerSelection: {
     defaultModel: "Padrão",
-    providerDefaultModel: "Padrão do provedor",
     selectModel: "Selecionar modelo",
     loading: "Carregando...",
     error: "Erro",

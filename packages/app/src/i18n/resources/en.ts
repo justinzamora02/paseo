@@ -1547,7 +1547,6 @@ export const en = {
   },
   providerSelection: {
     defaultModel: "Default",
-    providerDefaultModel: "Provider default",
     selectModel: "Select model",
     loading: "Loading...",
     error: "Error",

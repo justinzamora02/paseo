@@ -1564,7 +1564,6 @@ export const ru: TranslationResources = {
   },
   providerSelection: {
     defaultModel: "По умолчанию",
-    providerDefaultModel: "По умолчанию у провайдера",
     selectModel: "Выберите модель",
     loading: "Загрузка...",
     error: "Ошибка",
